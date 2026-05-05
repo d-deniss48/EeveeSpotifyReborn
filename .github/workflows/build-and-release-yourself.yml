@@ -1,5 +1,6 @@
 name: Create IPA Packages
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
     inputs:
