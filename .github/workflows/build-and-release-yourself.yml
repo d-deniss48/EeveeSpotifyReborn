@@ -104,6 +104,8 @@ jobs:
             EeveeSpotify.ipa 
             EeveeSpotify-patched.ipa
           draft: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
 
       - name: Output Release URL
         run: |
